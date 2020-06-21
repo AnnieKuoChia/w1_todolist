@@ -45,8 +45,7 @@ function removeList(e){
 
 function finish(e){
     var finishitem = e.target.dataset.id
-    var string = e.target.parentNode.textContent;
-    console.log(string);
+    var string = e.target.parentNode.className = 'completed';
 }
 
 function removeAllList(){
